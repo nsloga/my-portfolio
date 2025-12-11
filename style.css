@@ -1,6 +1,7 @@
 body{
     background-image: url("back.jpg");
     background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .header{
     border: 2px solid #007BFF;
@@ -21,9 +22,12 @@ h2{
      height: 30px;
 }
 p{
+    border: 2px solid blue;
     font-size: 30px;
-    color: skyblue;
+    color: blue;
     padding-left :50px;
+    border-radius: 100px;
+    background-color: aliceblue;
 }
 .intro-buttons{
     padding: 50px;
@@ -35,14 +39,13 @@ p{
     text-shadow: #007BFF;
     font-family:Helvetica;
     border-radius: 100px;
+    color: black;
 }
 button{
-    padding: 10px;
-    cursor: grabbing;
-    background-color: greenyellow;
-    box-shadow: 2px 1px rgb(118, 118, 160);
-    transition: 0.3s;
-    border-radius: 100%;
+   background: #32cd32;
+   padding: 8px 14px;
+   border-radius: 20px;
+   color: white;
 }
 .content{
     border:2px solid #007BFF;
